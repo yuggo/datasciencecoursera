@@ -50,7 +50,8 @@ x_all$userID <- subject_all$V1
 
 ##print result
 head(x_all)
-
+##create output
+write.table(x_all, file = "merged_data.txt", row.names = FALSE)
 
 ##task 5
 ##group by userID and then activity
