@@ -16,6 +16,7 @@ Step by step:
 - output created
 - summary table calculated, per user and activity
 
+easiest is to run source() with the print.eval=TRUE option
 
 Copyright
 Denis V.
